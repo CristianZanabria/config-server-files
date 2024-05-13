@@ -1,2 +1,4 @@
 application:
  name: zdevs Certificacion Connection
+ key: mongoDB-connection-database
+ value: '{cipher}3c2937de28e5fa6eeee9a2f3fa68e7aea14206b09a2e9984c2d8f7dee2f3cd89d9645db4dfa6fe018232361606e64d62fd4a1d54db7cbbc1c311d787c129b4f1'
