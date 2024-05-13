@@ -1,2 +1,4 @@
 application:
  name: zdevs Certificacion Connection
+ key: mongoDB-connection-database
+ value: MY-PASSWORD
