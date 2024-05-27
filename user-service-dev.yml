@@ -4,4 +4,4 @@ server:
 spring:
  data:
   mongodb:
-   uri: mongodb://zdev:zdev@localhost:27017/zdev
+   uri: mongodb://zdev:zdev@localhost:27017/zdev?authSource=admin
