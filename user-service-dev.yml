@@ -2,6 +2,6 @@ server:
   port: ${CUSTOM.SERVER.PORT:9010}
 
 spring:
- data:
-  mongodb:
-   uri: mongodb://zdev:zdev@localhost:27017/zdev?authSource=admin
+  data:
+    mongodb:
+      uri: mongodb://zdevs:zdevs@localhost:27017/zdevs?authSource=admin
