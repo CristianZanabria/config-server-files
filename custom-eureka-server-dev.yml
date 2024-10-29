@@ -51,7 +51,7 @@ eureka:
     fetchRegistry: false
     registerWithEureka: false
     serviceUrl:
-      defaultZone: http://discovery-server-2.mitzdevocode.com:8762/eureka,http://discovery-server-3.zdev.com:8763/eureka
+      defaultZone: http://discovery-server-2.zdev.com:8762/eureka,http://discovery-server-3.zdev.com:8763/eureka
 
   datacenter: zdev
   environment: Development
@@ -103,7 +103,7 @@ spring:
 eureka:
 
   instance:
-    hostname: http://discovery-server-3.mitzdevocode.com
+    hostname: http://discovery-server-3.zdev.com
     preferIpAddress: true
     leaseExpirationDurationInSeconds: 30
     leaseRenewalIntervalInSeconds: 30
