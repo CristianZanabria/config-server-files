@@ -2,7 +2,7 @@ server:
   port: 9090
 
 encrypt:
-  key: zdev-secret
+  key: zdevs-secret
 
 eureka:
   client:

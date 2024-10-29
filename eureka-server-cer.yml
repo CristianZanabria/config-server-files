@@ -21,7 +21,7 @@ eureka:
     fetchRegistry: false
     registerWithEureka: false
 
-  datacenter: zdev
+  datacenter: zdevs
   environment: Development
 
 
@@ -41,7 +41,7 @@ spring:
 eureka:
 
   instance:
-    hostname: http://discovery-server-1.zdev.com
+    hostname: http://discovery-server-1.zdevs.com
     preferIpAddress: true
     leaseExpirationDurationInSeconds: 30
     leaseRenewalIntervalInSeconds: 30
@@ -51,9 +51,9 @@ eureka:
     fetchRegistry: false
     registerWithEureka: false
     serviceUrl:
-      defaultZone: http://discovery-server-2.zdev.com:8762/eureka,http://discovery-server-3.zdev.com:8763/eureka
+      defaultZone: http://discovery-server-2.zdevs.com:8762/eureka,http://discovery-server-3.zdevs.com:8763/eureka
 
-  datacenter: zdev
+  datacenter: zdevs
   environment: Development
 
 ---
@@ -72,7 +72,7 @@ spring:
 eureka:
 
   instance:
-    hostname: http://discovery-server-2.zdev.com
+    hostname: http://discovery-server-2.zdevs.com
     preferIpAddress: true
     leaseExpirationDurationInSeconds: 30
     leaseRenewalIntervalInSeconds: 30
@@ -82,9 +82,9 @@ eureka:
     fetchRegistry: false
     registerWithEureka: false
     serviceUrl:
-      defaultZone: http://discovery-server-1.zdev.com:8761/eureka,http://discovery-server-3.zdev.com:8763/eureka
+      defaultZone: http://discovery-server-1.zdevs.com:8761/eureka,http://discovery-server-3.zdevss.com:8763/eureka
 
-  datacenter: zdev
+  datacenter: zdevs
   environment: Development
 
 ---
@@ -103,7 +103,7 @@ spring:
 eureka:
 
   instance:
-    hostname: http://discovery-server-3.zdev.com
+    hostname: http://discovery-server-3.zdevs.com
     preferIpAddress: true
     leaseExpirationDurationInSeconds: 30
     leaseRenewalIntervalInSeconds: 30
@@ -113,7 +113,7 @@ eureka:
     fetchRegistry: true
     registerWithEureka: true
     serviceUrl:
-      defaultZone: http://discovery-server-1.zdev.com:8761/eureka,http://discovery-server-2.zdev.com:8762/eureka
+      defaultZone: http://discovery-server-1.zdevs.com:8761/eureka,http://discovery-server-2.zdevs.com:8762/eureka
 
-  datacenter: zdev
+  datacenter: zdevs
   environment: Development
