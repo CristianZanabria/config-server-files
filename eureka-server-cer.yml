@@ -82,7 +82,7 @@ eureka:
     fetchRegistry: false
     registerWithEureka: false
     serviceUrl:
-      defaultZone: http://discovery-server-1.zdevs.com:8761/eureka,http://discovery-server-3.zdevss.com:8763/eureka
+      defaultZone: http://discovery-server-1.zdevs.com:8761/eureka,http://discovery-server-3.zdevs.com:8763/eureka
 
   datacenter: zdevs
   environment: Development
